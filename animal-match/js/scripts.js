@@ -36,7 +36,7 @@ $(document).ready(function() {
     }
 
     if (vBee > vPossum && vBee > vRaccoon && vBee > vFox) {
-      alert("bee!");
+      $('#beepic').fadeIn();
     }
 
     if (vRaccoon > vPossum && vRaccoon > vBee && vRaccoon > vFox) {
